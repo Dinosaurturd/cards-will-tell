@@ -2,6 +2,10 @@ body {
     background-color: #F3EFEC;
 }
 
+h1 {
+    color: #312A4E;
+}
+
 h1, h2 {
     text-align: center;
 }
