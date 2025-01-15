@@ -1,11 +1,123 @@
 body {
     background-color: #F3EFEC;
+    margin: 0;
 }
 
 h1 {
     color: #312A4E;
+    text-align: center;
+    font-family: 'STIX Two Text', serif;
+    font-size: 120px;
+    font-weight: 600;
+    
 }
 
-h1, h2 {
+h2 {
     text-align: center;
+    font-family: 'STIX Two Text', serif;
+    font-weight: 600;
+    color: #312A4E;
+    padding-top: 60px;
+}
+
+p {
+    font-family: 'Raleway', serif;
+    padding-top: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #312A4E;
+}
+
+footer p {
+    text-align: center;
+}
+
+figcaption{
+    text-align: center;
+    border: 1px; 
+    color: #312A4E;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 115%;
+}
+
+hr {
+    background-color: #312A4E;
+    height: 1px;
+}
+
+button {
+    border: hidden;
+    color: #312A4E;
+    font-family: 'Raleway', serif;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+}
+
+ul {
+    margin-left: 40px;
+    margin-bottom: 80px;
+    color: #312A4E;
+    font-family: 'Raleway', serif;
+}
+
+li::marker{
+    content: "🌝";
+}
+
+.frame{
+    text-align: center;
+    border: 1px solid #312A4E;
+    margin: 40px 40px 0px 40px;
+    border-width: 2px;
+    padding: 300px 300px;
+}
+
+.frame h2{
+    margin: 0;
+    padding-top: 0;
+    font-size: 350%;
+}
+
+.frame p{
+    padding-top: 0;
+    margin: 0;
+}
+  
+.aboba {
+    display: flex; 
+    justify-content: space-between;
+    font-family: 'STIX Two Text', serif;
+    color: #312A4E;
+}
+
+.aboba p {
+    font-family: 'STIX Two Text', serif;
+    font-weight: bold;
+    color: #312A4E;
+    font-size: 150%;
+    padding-top: 0;
+}
+
+.button-container {
+    display: flex;
+}
+
+.quote {
+    margin: 0px 100px 0 100px;
+}
+
+#special::first-letter {
+    font-size: 1.5em;
+    font-weight: bold;
+    background-color: #FFAB6B;
+    padding: 3px 3px;
+}
+
+#spe {
+    padding-top: 60px;
 }
